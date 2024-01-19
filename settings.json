@@ -4,6 +4,17 @@
   "files.autoSave": "afterDelay",
   "liveServer.settings.host": "localhost",
   "liveServer.settings.port": 8888,
+  // Remove the line number gutter
+  "editor.glyphMargin": false,
+  // Remove minimap
+  "editor.minimap.enabled": false,
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.patterns": {
+    "package.json": "yarn.lock, package-lock, .eslint*, lint-*, .prettier*, prettier*,tsconfig*, vite*, pnpm-lock*, bun.lockb, nest*, next*",
+    "tailwind.config.js": "tailwind.config*, postcss.config*",
+    ".env.local": ".env*",
+    ".env": ".env*"
+  },
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": "explicit",
     "source.organizeImports": "explicit",
