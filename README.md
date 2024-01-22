@@ -7,6 +7,7 @@ Utilize essas configurações para deixar o VS Code bem limpo. O arquivo de conf
 - [Fluent Icons](https://marketplace.visualstudio.com/items?itemName=miguelsolorio.fluent-icons)
 - [Symbols](https://marketplace.visualstudio.com/items?itemName=miguelsolorio.symbols)
 
+Veja o print abaixo do settings.json de como fica o visual do VS Code com essas configurações.
 
 settings.json
 
@@ -141,3 +142,6 @@ settings.json
   "apc.font.family": "Inter",
 }
 ```
+### Print
+![Print do VS Code com as configurações acima](https://raw.githubusercontent.com/jesielviana/vs-code-settings/5a87251514812186c60e565f877aa00f98069fed/vscode.png)
+
